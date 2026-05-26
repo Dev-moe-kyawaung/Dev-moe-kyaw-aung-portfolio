@@ -14,7 +14,7 @@ A modern, responsive portfolio website built with Next.js 15 App Router, Tailwin
 - ✅ **Component Architecture** - Organized UI primitives and route-specific components
 
 ## Project Structure
-moe-kyaw-aung-portfolio/
+Dev-moe-kyaw-aung-portfolio/
 ├── app/                    # Next.js App Router
 │   ├── (routes)/          # Route group for pages
 │   ├── layout.tsx         # Root layout
@@ -74,3 +74,8 @@ module.exports = {
     autoprefixer: {},
   },
 }
+npx create-next-app@latest Dev-moe-kyaw-aung-portfolio --typescript --tailwind --app
+cd moe-kyaw-aung-portfolio
+npm install framer-motion lucide-react clsx tailwind-merge
+# Then replace files with the code above
+npm run dev
